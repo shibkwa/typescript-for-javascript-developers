@@ -1,2 +1,16 @@
 ts-node　コマンド一発でコンパイラ
 例　npx ts-node コンパイルファイル名
+
+ts-node-dev 毎回コンパイルすると面倒
+npx ts-node-dev --respawn 対象ファイル
+
+package.jsonに上記をdevで追加する
+% npm run dev ファイル
+
+settings.jsonでprettierでセミコロンをtrueにした
+
+tsconfig.jsonにtsc（タイプスクリプトコンパイル）先を指定しておく
+＞自動生成できる npx tsc --init
+
+VScodeのタイプスクリプトの設定
+>/.vscodeでnode_moduleのts使うように指定
