@@ -4,5 +4,5 @@ let name = 'TypeScript' // export{}コメントアウトするとモジュール
 
 let isFinished: boolean = true
 isFinished = false;
-isFinished = 1 //  ダメな例 Type 'number' is not assignable to type 'boolean'.（boolean以外は代入不可）
+// isFinished = 1 //  ダメな例 Type 'number' is not assignable to type 'boolean'.（boolean以外は代入不可）
 console.log({ isFinished });
